@@ -9,6 +9,11 @@
 };
 
 &trackball {
+    //センサーの角度で変更
+    //xy-swap;
+    //x-invert;
+    //y-invert;
+
     automouse-layer = <4>;
     scroll-layers = <5>;
 
