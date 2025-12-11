@@ -9,6 +9,10 @@
 };
 
 &trackball {
+    //xy-swap;
+    //x-invert;
+    //y-invert;
+
     automouse-layer = <4>;
     scroll-layers = <5>;
 
