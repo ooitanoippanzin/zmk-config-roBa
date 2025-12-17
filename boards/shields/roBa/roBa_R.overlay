@@ -62,9 +62,8 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        zephyr,axis-x = <0>;  // REL_X の代わりに 0
-        zephyr,axis-y = <1>;  // REL_Y の代わりに 1
+        zephyr,axis-x = <0>;
+        zephyr,axis-y = <1>;
     };
 };
-
 
